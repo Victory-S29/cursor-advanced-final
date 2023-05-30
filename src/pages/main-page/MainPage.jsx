@@ -36,7 +36,7 @@ const MainPage = () => {
                 </ul>
             </main>
 
-            <footer>
+            {/* <footer>
                 <ul className='footer--link-ul'>
                     {text[language].footer.map((elem) => {
                         return (
@@ -47,7 +47,7 @@ const MainPage = () => {
                     })
                     }
                 </ul>
-            </footer>
+            </footer> */}
         </Fragment>
     );
 };
