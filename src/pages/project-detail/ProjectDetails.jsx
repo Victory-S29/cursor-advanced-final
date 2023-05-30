@@ -32,9 +32,9 @@ const ProjectDetails = () => {
             </table>
             <div className='gallery-section'>
                 {project.gallery.map(image => {
-                    console.log("image", image)
+                    const path = process.env.PUBLIC_URL + image;
                     return (
-                        <img className="project-image" src={image} alt="project screenshot" />
+                        <img className="project-image" src={path} alt="project screenshot" />
                     );
                 })}
             </div>
