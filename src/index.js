@@ -11,7 +11,7 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <Provider store={store}>
-      <BrowserRouter basename="/cursor-advanced/final-project/build">
+      <BrowserRouter>
         <App />
       </BrowserRouter>
     </Provider>
