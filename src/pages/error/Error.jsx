@@ -6,7 +6,6 @@ import text from '../../text';
 
 const Error = () => {
     const language = useSelector((state) => state.lang.lang);
-    const projects = useSelector((state) => state.projects.projects);
 
     return (
         <Fragment>
