@@ -2,8 +2,6 @@ import spa1 from "../../imgs/SPA/spa1.png";
 import spa2 from "../../imgs/SPA/spa2.png";
 import spa3 from "../../imgs/SPA/spa3.png";
 import spa4 from "../../imgs/SPA/spa4.png";
-import timer1 from "./timer1.png";
-import timer2 from "../../imgs/Timer/timer2.png";
 import lp1 from "../../imgs/landing-page/lp1.png";
 import lp2 from "../../imgs/landing-page/lp2.png";
 import lp3 from "../../imgs/landing-page/lp3.png";
@@ -12,7 +10,11 @@ import redux1 from "../../imgs/redux/redux1.png";
 import redux2 from "../../imgs/redux/redux2.png";
 import redux3 from "../../imgs/redux/redux3.png";
 
+const timer1 = "https://raw.githubusercontent.com/Victory-S29/cursor-advanced/main/final-project/src/imgs/Timer/timer1.png";
+const timer2 = "https://raw.githubusercontent.com/Victory-S29/cursor-advanced/main/final-project/src/imgs/Timer/timer2.png";
+
 const initialState = {
+ 
     projects: {
         "en": [{
             id: 1,
