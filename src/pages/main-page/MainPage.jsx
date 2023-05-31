@@ -27,7 +27,7 @@ const MainPage = () => {
                     {projects[language].map((elem) => {
                         return (
                             <li className='project--link-li'>
-                                <Link key={elem.id} to={`/projects/${elem.id}`} className='project--link'>{elem.name}</Link>
+                                <Link key={elem.id} to={`/${elem.id}`} className='project--link'>{elem.name}</Link>
                                 <p className='project--description'>{elem.description}</p>
                             </li>
                         )
@@ -36,7 +36,7 @@ const MainPage = () => {
                 </ul>
             </main>
 
-            {/* <footer>
+            <footer>
                 <ul className='footer--link-ul'>
                     {text[language].footer.map((elem) => {
                         return (
@@ -47,7 +47,7 @@ const MainPage = () => {
                     })
                     }
                 </ul>
-            </footer> */}
+            </footer>
         </Fragment>
     );
 };

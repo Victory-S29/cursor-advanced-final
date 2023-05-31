@@ -7,7 +7,6 @@ import Button from './style/Button';
 import MainPage from './pages/main-page/MainPage';
 import Error from './pages/error/Error';
 import ProjectDetails from './pages/project-detail/ProjectDetails';
-import image from "./imgs/Timer/timer1.png"
 
 function App() {
   const [lang, setLanguage] = useState("en")
@@ -27,13 +26,12 @@ function App() {
       <Button onClick={changeLanguage}>
         {lang === "en" ? "EN" : "UA"}
       </Button>
-      <img src={image}></img>
       <Routes>
         <Route index element={<MainPage />} />
         <Route path='*' element={<Error />} />
-        <Route path="projects">
-          <Route path=":projectId" element={<ProjectDetails />} />
-        </Route>
+
+        <Route path=":projectId" element={<ProjectDetails />} />
+
       </Routes>
     </Fragment>
   );
