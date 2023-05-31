@@ -2,7 +2,7 @@ import spa1 from "../../imgs/SPA/spa1.png";
 import spa2 from "../../imgs/SPA/spa2.png";
 import spa3 from "../../imgs/SPA/spa3.png";
 import spa4 from "../../imgs/SPA/spa4.png";
-import timer1 from "../../imgs/Timer/timer1.png";
+import timer1 from "./timer1.png";
 import timer2 from "../../imgs/Timer/timer2.png";
 import lp1 from "../../imgs/landing-page/lp1.png";
 import lp2 from "../../imgs/landing-page/lp2.png";

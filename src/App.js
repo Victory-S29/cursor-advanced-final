@@ -29,9 +29,9 @@ function App() {
       <Routes>
         <Route index element={<MainPage />} />
         <Route path='*' element={<Error />} />
-
-        <Route path=":projectId" element={<ProjectDetails />} />
-
+        <Route path="projects">
+          <Route path=":projectId" element={<ProjectDetails />} />
+        </Route>
       </Routes>
     </Fragment>
   );
