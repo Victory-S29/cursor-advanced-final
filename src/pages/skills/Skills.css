@@ -42,6 +42,13 @@
 }
 
 @media (max-width: 768px) {
+    .skill-name{
+        font-size: 30px; 
+    }
+    .skill-div{
+       margin: 2% auto;
+    }
+    
     .skill-div{
         width: 90%;
     }
