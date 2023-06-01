@@ -1,0 +1,48 @@
+@import "../../style/variables.css";
+
+.skills-section{
+    padding: 1%;
+    color: var(--text-main);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.skill-div{
+    width: 45%;
+    border: 3px solid var(--blur);
+    padding: 2%;
+    margin-bottom: 2%;
+}
+
+.skill-name{
+    text-align: center;
+    letter-spacing: 8px;
+    font-size: 3rem; 
+    border-bottom: 3px solid var(--blur);
+    padding-bottom: 3%;
+}
+
+.skill-description{
+    text-align: center;
+    font-size: 25px; 
+    border-bottom: 3px solid var(--blur);
+    padding: 3%;
+}
+
+.skill-project--list{
+    font-size: 20px; 
+    padding: 3%;
+}
+
+.skill-project{
+    padding: 3%;
+    list-style: none;
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+    .skill-div{
+        width: 90%;
+    }
+}

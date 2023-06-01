@@ -98,4 +98,10 @@ th, td {
     .project-image{
         width: 70%;
     }
+    .project-description{  
+        width: 90%;
+    }
+    .project-image{
+        width: 90vw;
+    }
 }

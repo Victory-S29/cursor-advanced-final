@@ -7,6 +7,7 @@ import Button from './style/Button';
 import MainPage from './pages/main-page/MainPage';
 import Error from './pages/error/Error';
 import ProjectDetails from './pages/project-detail/ProjectDetails';
+import Skills from './pages/skills/Skills';
 
 function App() {
   const [lang, setLanguage] = useState("en")
@@ -28,13 +29,14 @@ function App() {
       </Button>
       <Routes>
         <Route index element={<MainPage />} />
-        <Route path='*' element={<Error />} />
+        <Route path="/Skills" element={<Skills />} />
         <Route path="projects">
           <Route path=":projectId" element={<ProjectDetails />} />
         </Route>
+        <Route path='*' element={<Error />} />
       </Routes>
     </Fragment>
   );
-}
+} 
 
 export default App;

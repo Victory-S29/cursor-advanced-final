@@ -145,11 +145,17 @@ main{
 
 
 @media (max-width: 768px) {
+    body{
+        padding-top: 60px;
+    }
     .cube {
         display: none;
     } 
     main{
         display: block;
+    }
+    .main-bio{
+        width: 90%;
     }
 }
 
