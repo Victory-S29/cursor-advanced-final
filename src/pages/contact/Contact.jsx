@@ -20,7 +20,7 @@ const Contact = () => {
                         <a className='contact-a' href={`${text[language].contacts.GitHub}`}>GitHub</a>
                     </li>
                     <li className='contact-list-li'>
-                        <a className='contact-a' href={`mailto:${text[language].contacts.LinkedIn}`}>LinkedIn</a>
+                        <a className='contact-a' href={`${text[language].contacts.LinkedIn}`}>LinkedIn</a>
                     </li>
                 </ul>
                 <p className='contact-place'>{text[language].place}: {text[language].contacts.Place}</p>
