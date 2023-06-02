@@ -46,10 +46,7 @@
         font-size: 30px; 
     }
     .skill-div{
+       width: 90%;
        margin: 2% auto;
-    }
-    
-    .skill-div{
-        width: 90%;
     }
 }

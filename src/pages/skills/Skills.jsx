@@ -5,10 +5,8 @@ import { Link } from 'react-router-dom';
 import text from '../../text';
 
 const Skills = () => {
-
     const language = useSelector((state) => state.lang.lang);
     const skill = useSelector((state) => state.skills.skills[language]);
-
     return (
         <div className='skills-section'>
             {skill.map(skill => {
@@ -25,7 +23,6 @@ const Skills = () => {
                     </div>
                 )
             })}
-
             <div className='link-section'>
                 <Link to='/' className="GoBack">{text[language].btnText}</Link>
             </div>

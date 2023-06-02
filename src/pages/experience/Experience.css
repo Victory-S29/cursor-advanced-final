@@ -1,0 +1,76 @@
+@import url("../../style/variables.css");
+
+.experience-section{
+    padding: 1%;
+    color: var(--text-main);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.experience-div{
+    width: 45%;
+    border: 3px solid var(--blur);
+    padding: 2%;
+    margin-bottom: 2%;
+}
+
+.experience-name{
+    text-align: center;
+    letter-spacing: 8px;
+    font-size: 2rem; 
+    border-bottom: 3px solid var(--blur);
+    padding-bottom: 3%;
+}
+
+.experience-description{
+    text-align: center;
+    font-size: 20px; 
+    border-bottom: 3px solid var(--blur);
+    padding: 3%;
+}
+
+.experience-technology--list{
+    display: flex;
+    font-size: 20px; 
+    padding: 3%;
+    justify-content: space-evenly;
+    border-bottom: 3px solid var(--blur);
+}
+
+.experience-technology{
+    padding: 3%;
+    list-style: none;
+}
+
+.experience-data--list{
+    font-size: 20px; 
+    padding: 3%;
+}
+
+.experience-data{
+    padding: 3%;
+    list-style: none;
+    text-align: center;
+}
+
+.responsibilities{
+    text-align: center;
+    font-size: 20px; 
+    border-bottom: 1px solid var(--blur);
+    padding: 3%;
+}
+
+ 
+@media (max-width: 768px) {
+    .experience-name{
+        font-size: 30px; 
+    }
+    .experience-div{
+       margin: 2% auto;
+    }
+    
+    .experience-div{
+        width: 90%;
+    }
+}

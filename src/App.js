@@ -8,6 +8,7 @@ import MainPage from './pages/main-page/MainPage';
 import Error from './pages/error/Error';
 import ProjectDetails from './pages/project-detail/ProjectDetails';
 import Skills from './pages/skills/Skills';
+import Experience from './pages/experience/Experience';
 
 function App() {
   const [lang, setLanguage] = useState("en")
@@ -30,6 +31,7 @@ function App() {
       <Routes>
         <Route index element={<MainPage />} />
         <Route path="/Skills" element={<Skills />} />
+        <Route path="/Experience" element={<Experience />} />
         <Route path="projects">
           <Route path=":projectId" element={<ProjectDetails />} />
         </Route>
@@ -37,6 +39,6 @@ function App() {
       </Routes>
     </Fragment>
   );
-} 
+}
 
 export default App;
