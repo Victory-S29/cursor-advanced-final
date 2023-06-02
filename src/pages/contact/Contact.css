@@ -1,0 +1,60 @@
+@import "../../style/variables.css";
+
+.contact-section{
+    background-color: var(--contact-bc);
+    margin: 5% auto;
+    width: 70%;
+    min-height: 60vh;
+    border-radius: 2rem;
+    display: flex;
+    flex-direction: column;
+    border: 45px solid var(--blur);
+    justify-content: center;
+    align-items: center;
+    padding: 5%;
+}
+
+.contact-list{
+    list-style: none;
+    margin-bottom: 3%;
+}
+
+.contact-list-li{
+    margin-bottom: 3%;
+}
+
+.contact-a{
+    color: var(--text-main);
+    text-align: center;
+    letter-spacing: 8px;
+    font-size: 2rem; 
+    padding-bottom: 3%;
+    text-decoration: none;
+}
+
+.contact-place{
+    border-top: 3px solid var(--blur);
+    color: var(--text-main);
+    text-align: center;
+    letter-spacing: 3px;
+    font-size: 2rem; 
+    padding-top: 3%;
+}
+
+@media (max-width: 768px) {
+    .contact-section{
+        width: 95%;
+        border: 5px solid var(--blur);
+        text-align: center;
+    }
+
+    .contact-a{
+        letter-spacing: 2px;
+        font-size: 35px; 
+    }
+    
+    .contact-place{
+        letter-spacing: 1px;
+        font-size: 35px; 
+    }
+}

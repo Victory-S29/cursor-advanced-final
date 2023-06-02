@@ -61,7 +61,6 @@
     padding: 3%;
 }
 
- 
 @media (max-width: 768px) {
     .experience-name{
         font-size: 30px; 
@@ -73,4 +72,9 @@
     .experience-div{
         width: 90%;
     }
+    .experience-technology--list{
+        display: grid;
+        grid-template-columns: 45% 45%;
+        text-align: center;
+    }   
 }

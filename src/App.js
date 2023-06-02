@@ -9,6 +9,7 @@ import Error from './pages/error/Error';
 import ProjectDetails from './pages/project-detail/ProjectDetails';
 import Skills from './pages/skills/Skills';
 import Experience from './pages/experience/Experience';
+import Contact from './pages/contact/Contact';
 
 function App() {
   const [lang, setLanguage] = useState("en")
@@ -32,6 +33,7 @@ function App() {
         <Route index element={<MainPage />} />
         <Route path="/Skills" element={<Skills />} />
         <Route path="/Experience" element={<Experience />} />
+        <Route path="/Contact" element={<Contact />} />
         <Route path="projects">
           <Route path=":projectId" element={<ProjectDetails />} />
         </Route>

@@ -160,16 +160,22 @@ main{
     .main-bio{
         width: 90%;
     }
+    .footer--link-ul{
+       flex-wrap: wrap;
+    }
+    .footer--link-li{
+        margin-bottom: 3%;
+    }
 }
 
 @media (max-width: 1400px) {
     .main-bio{
-        margin: 0 auto;
+        margin: 0 auto 10% auto;
         text-align: center;
     }
 
     .project--link-ul{
-        margin: 10% auto;
+        margin: 0 auto;
         text-align: center;
     }
     
