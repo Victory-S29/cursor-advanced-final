@@ -11,16 +11,16 @@ const Contact = () => {
             <div className='contact-section'>
                 <ul className='contact-list'>
                     <li className='contact-list-li'>
-                        <a className='contact-a' href={`tel:${text[language].Phone}`}>{text[language].contacts.Phone}</a>
+                        <a className='contact-a' href={`tel:${text[language].contacts.Phone}`}>{text[language].contacts.Phone}</a>
                     </li>
                     <li className='contact-list-li'>
-                        <a className='contact-a' href={`mailto:${text[language].Gmail}`}>Gmail</a>
+                        <a className='contact-a' href={`mailto:${text[language].contacts.Gmail}`}>Gmail</a>
                     </li>
                     <li className='contact-list-li'>
-                        <a className='contact-a' href={`${text[language].GitHub}`}>GitHub</a>
+                        <a className='contact-a' href={`${text[language].contacts.GitHub}`}>GitHub</a>
                     </li>
                     <li className='contact-list-li'>
-                        <a className='contact-a' href={`mailto:${text[language].LinkedIn}`}>LinkedIn</a>
+                        <a className='contact-a' href={`mailto:${text[language].contacts.LinkedIn}`}>LinkedIn</a>
                     </li>
                 </ul>
                 <p className='contact-place'>{text[language].place}: {text[language].contacts.Place}</p>
