@@ -23,7 +23,7 @@ const text = {
             Phone: "066-378-9986",
             Place:"Віддалено/Апелдорн",
         },
-        downloadBtn: "Завантажити резюме"
+        downloadBtn: "Подивитися резюме"
     },
     en: {
         name: "Viktoriia Sanina",
@@ -49,7 +49,7 @@ const text = {
             Phone: "066-378-9986",
             Place:"Remote/Apeldoorn",
         },
-        downloadBtn: "Click to Download CV"
+        downloadBtn: "Click to see CV"
     },
 }
 

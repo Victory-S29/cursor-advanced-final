@@ -37,7 +37,7 @@ const MainPage = () => {
                     })
                     }
                     <li className='footer--link-li'>
-                        <a href="../../CV_Viktoriia_Sanina.pdf" download className="download-button">
+                        <a href="https://drive.google.com/file/d/19fTH7b-SP4ELAJAZsaeq_9ZAl_jD7FO3/view" className="download-button">
                             {text[language].downloadBtn}
                         </a>
                     </li>
