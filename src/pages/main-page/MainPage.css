@@ -1,7 +1,6 @@
 @import "../../style/variables.css";
- 
 
-.main-title{
+.main-title {
     margin-top: 20px;
     color: var(--text-main);
     text-align: center;
@@ -9,147 +8,152 @@
     font-size: 90px;
 }
 
-.main-bio{
+.main-bio {
     color: var(--text-main);
     font-size: 25px;
     letter-spacing: 3px;
     width: 60%;
-    text-align: center; 
+    text-align: center;
 }
 
 @keyframes cube {
     from {
-        transform: scale(0) rotate(0deg) translate(-50%, -50%);   
+        transform: scale(0) rotate(0deg) translate(-50%, -50%);
         opacity: 1;
     }
     to {
-        transform: scale(20) rotate(960deg) translate(-50%, -50%); 
+        transform: scale(20) rotate(960deg) translate(-50%, -50%);
         opacity: 0;
     }
 }
 
-main{
+main {
     display: flex;
     padding: 1%;
-    flex-wrap: wrap;  
+    flex-wrap: wrap;
     gap: 10%;
     margin: 3% auto;
     width: 80%;
 }
 
-.project--link-ul{
+.project--link-ul {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
 
-.project--link-li{
-    list-style:decimal-leading-zero;
+.project--link-li {
+    list-style: decimal-leading-zero;
     color: var(--text-main);
     min-height: 60px;
 }
 
-.project--link{
+.project--link {
     position: relative;
     font-size: 25px;
     color: var(--text-main);
     text-decoration: none;
-    transition: color 0.1s linear; 
+    transition: color 0.1s linear;
 }
- 
-.project--description{
+
+.project--description {
     display: block;
     opacity: 0;
 }
 
-.project--link:hover{
-    color: var(--hover-text); 
+.project--link:hover {
+    color: var(--hover-text);
 }
 
-.project--link:hover + .project--description{
+.project--link:hover + .project--description {
     opacity: 1;
 }
-   
-.footer--link-ul{
+
+.footer--link-ul {
     display: flex;
     justify-content: space-evenly;
     margin: 10% auto;
 }
 
-.footer--link-li{
+.footer--link-li {
     list-style: none;
     color: var(--text-main);
 }
 
-.footer--link{
+.footer--link {
     font-size: 25px;
     color: var(--text-main);
     text-decoration: none;
-    transition: color 0.1s linear; 
+    transition: color 0.1s linear;
 }
- 
-.footer--link:hover{
-    color: var(--hover-text); 
+
+.download-button {
+    font-size: 25px;
+    font-weight: 500;
+    color: var(--text-main);
+    text-decoration: none;
+}
+
+.footer--link:hover {
+    color: var(--hover-text);
 }
 
 #Contact {
-    color: var(--hover-text); 
+    color: var(--hover-text);
     font-weight: 900;
 }
 
-
 @media (max-width: 768px) {
-    .main-title{
+    .main-title {
         font-size: 50px;
     }
-    body{
+    body {
         padding-top: 60px;
     }
     .cube {
         display: none;
-    } 
-    main{
+    }
+    main {
         display: block;
     }
-    .main-bio{
+    .main-bio {
         width: 90%;
     }
-    .footer--link-ul{
-       flex-wrap: wrap;
+    .footer--link-ul {
+        flex-wrap: wrap;
     }
-    .footer--link-li{
+    .footer--link-li {
         margin-bottom: 3%;
     }
 }
 
 @media (max-width: 1400px) {
-    .main-bio{
+    .main-bio {
         margin: 0 auto 10% auto;
         text-align: center;
     }
 
-    .project--link-ul{
+    .project--link-ul {
         margin: 0 auto;
         text-align: center;
     }
-    
-    .project--link-li{
+
+    .project--link-li {
         list-style: none;
         color: var(--text-main);
         min-height: 60px;
     }
-    
-    .project--link{
+
+    .project--link {
         position: relative;
         font-size: 25px;
         color: var(--text-main);
         text-decoration: none;
-        transition: color 0.1s linear; 
+        transition: color 0.1s linear;
     }
-     
-    .project--description{
+
+    .project--description {
         display: block;
         opacity: 0;
     }
-
 }

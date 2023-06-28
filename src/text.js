@@ -22,7 +22,8 @@ const text = {
             Gmail: "viktoriia.sanina.2917@gmail.com",
             Phone: "066-378-9986",
             Place:"Віддалено/Апелдорн",
-        }
+        },
+        downloadBtn: "Завантажити резюме"
     },
     en: {
         name: "Viktoriia Sanina",
@@ -47,7 +48,8 @@ const text = {
             Gmail: "viktoriia.sanina.2917@gmail.com",
             Phone: "066-378-9986",
             Place:"Remote/Apeldoorn",
-        }
+        },
+        downloadBtn: "Click to Download CV"
     },
 }
 

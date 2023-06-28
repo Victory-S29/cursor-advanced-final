@@ -27,7 +27,7 @@ function App() {
   return (
     <Fragment>
       <Button onClick={changeLanguage}>
-        {lang === "en" ? "EN" : "UA"}
+        {lang === "en" ? "UA" : "EN"}
       </Button>
       <Routes>
         <Route index element={<MainPage />} />
