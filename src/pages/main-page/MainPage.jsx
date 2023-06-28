@@ -1,4 +1,4 @@
-import React, { Fragment } from 'react';
+import React from 'react';
 import "./MainPage.css";
 import { useSelector } from 'react-redux';
 import text from '../../text';
@@ -9,17 +9,7 @@ const MainPage = () => {
     const projects = useSelector((state) => state.projects.projects);
 
     return (
-        <Fragment>
-            <div className='cube-div'>
-                <div className="cube"></div>
-                <div className="cube"></div>
-                <div className="cube"></div>
-                <div className="cube"></div>
-                <div className="cube"></div>
-                <div className="cube"></div>
-                <div className="cube"></div>
-                <div className="cube"></div>
-            </div>
+        <div className='background'>
             <h1 className='main-title'>{text[language].name}</h1>
             <main>
                 <p className='main-bio'>{text[language].bio}</p>
@@ -48,7 +38,7 @@ const MainPage = () => {
                     }
                 </ul>
             </footer>
-        </Fragment>
+        </div>
     );
 };
 

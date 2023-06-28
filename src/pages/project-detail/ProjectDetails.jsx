@@ -7,7 +7,7 @@ const ProjectDetails = () => {
     const { projectId } = useParams();
     const language = useSelector((state) => state.lang.lang);
     const project = useSelector((state) => state.projects.projects[language][projectId - 1]);
-
+    console.log(project.projectLink)
     return (
         <div className='project-page'>
             <h1 className='project-title'>
@@ -37,6 +37,9 @@ const ProjectDetails = () => {
                         <img className="project-image" src={path} alt="project screenshot" />
                     );
                 })}
+            </div>
+            <div className='link-section'>
+                <a className='project-link' href={`${project.projectLink}`} target="_blank" rel="noopener noreferrer">{text[language].linkText}</a>
             </div>
             <div className='link-section'>
                 <Link to='/' className="GoBack">{text[language].btnText}</Link>

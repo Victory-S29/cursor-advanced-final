@@ -11,7 +11,7 @@ const Contact = () => {
             <div className='contact-section'>
                 <ul className='contact-list'>
                     <li className='contact-list-li'>
-                        <a className='contact-a' href={`tel:${text[language].contacts.Phone}`}>{text[language].contacts.Phone}</a>
+                        <a className='contact-a' href={`tel:${text[language].contacts.Phone}`}>+38-{text[language].contacts.Phone}</a>
                     </li>
                     <li className='contact-list-li'>
                         <a className='contact-a' href={`mailto:${text[language].contacts.Gmail}`}>Gmail</a>

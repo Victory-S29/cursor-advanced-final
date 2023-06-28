@@ -9,6 +9,7 @@
 }
 
 .skill-div{
+    background-color: var(--background-part);
     width: 45%;
     border: 3px solid var(--blur);
     padding: 2%;

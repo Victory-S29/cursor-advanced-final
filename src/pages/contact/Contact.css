@@ -8,7 +8,7 @@
     border-radius: 2rem;
     display: flex;
     flex-direction: column;
-    border: 45px solid var(--blur);
+    border: 45px solid var(--contact-border);
     justify-content: center;
     align-items: center;
     padding: 5%;
@@ -33,7 +33,7 @@
 }
 
 .contact-place{
-    border-top: 3px solid var(--blur);
+    border-top: 3px solid var(--contact-border-list);
     color: var(--text-main);
     text-align: center;
     letter-spacing: 3px;
@@ -44,7 +44,7 @@
 @media (max-width: 768px) {
     .contact-section{
         width: 95%;
-        border: 5px solid var(--blur);
+        border: 5px solid var(--contact-border-list);
         text-align: center;
     }
 

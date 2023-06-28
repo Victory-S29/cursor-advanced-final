@@ -1,19 +1,39 @@
 @import "./style/variables.css";
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
 
-*{
+* {
     margin: 0%;
     padding: 0%;
     box-sizing: border-box;
 }
 
-body{
+body {
     background-color: var(--main-theme);
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto", sans-serif;
+    background: radial-gradient(
+            circle,
+            transparent 90%,
+            var(--main-theme) 20%,
+            var(--main-theme) 95%,
+            transparent 35%,
+            transparent
+        ),
+        radial-gradient(
+                circle,
+                transparent 20%,
+                var(--main-theme) 20%,
+                var(--main-theme) 95%,
+                transparent 95%,
+                transparent
+            )
+            25px 25px,
+        linear-gradient(var(--project-details) 2px, transparent 2px) 0 -1px,
+        linear-gradient(90deg, var(--project-details) 2px, var(--main-theme) 2px) -1px 0;
+    background-size: 50px 50px, 50px 50px, 25px 25px, 25px 25px;
 }
 
 @media (max-width: 1400px) {
     body {
-        overflow:auto;
-    } 
+        overflow: auto;
+    }
 }

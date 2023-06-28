@@ -3,13 +3,18 @@
     --project-details: #12053f;
     --text-main: #ffffff;
  
-    --details: rgba(38, 0, 255, 0.185);
-    --hover-text: rgb(81, 93, 255);
+    --details: #2600ff2f;
+    --hover-text: #515dff;
 
-    --main-color: rgb(0, 17, 255);
+    --main-color: #0011ff;
     --blur: #4400ff;
 
     --gradient: #05010c;
 
-    --contact-bc:#6632f7;
+    --contact-bc:#231157;
+
+    --background-part: #1e2168;
+
+    --contact-border:#1c0e46;
+    --contact-border-list:#351a81;
 } 

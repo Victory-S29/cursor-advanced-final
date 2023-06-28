@@ -1,20 +1,19 @@
 @import url("../../style/variables.css");
- 
-.project-page{
-    background: linear-gradient(-45deg, var(--main-theme),  var(--gradient),  var(--main-theme),  var(--main-theme));
-	background-size: 400% 400%;
-	animation: gradient 6s linear infinite;
-	height: 100vh;
+
+.project-page {
+    background: linear-gradient(-45deg, var(--main-theme), var(--gradient), var(--main-theme), var(--main-theme));
+    background-size: 400% 400%;
+    animation: gradient 6s linear infinite;
 }
 
-.project-title{
+.project-title {
     color: var(--text-main);
     text-align: center;
     letter-spacing: 8px;
     font-size: 90px;
 }
 
-.project-description{
+.project-description {
     text-align: center;
     color: var(--text-main);
     width: 70%;
@@ -25,7 +24,6 @@
     border-top: 3px double var(--blur);
     border-bottom: 3px double var(--blur);
     border-radius: 2rem;
- 
 }
 
 table {
@@ -34,41 +32,43 @@ table {
     margin: 5% auto;
     font-size: 20px;
 }
-  
-th, td {
+
+th,
+td {
     padding: 8px;
     text-align: left;
     border-bottom: 1px solid var(--text-main);
 }
 
-.project-technologies{
+.project-technologies {
     color: var(--text-main);
 }
 
-.project-description--title{
+.project-description--title {
     color: var(--text-main);
 }
 
-.gallery-section{
+.gallery-section {
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
 }
 
-.project-image{
-    width: 45vw;
+.project-image {
+    width: 80vw;
     border: 2px solid var(--blur);
-    border-radius:2rem ;
+    border-radius: 2rem;
     margin: 1% auto;
 }
- 
-.link-section{
+
+.link-section {
     width: 100%;
     display: flex;
     justify-content: center;
 }
 
-.GoBack{
+.GoBack,
+.project-link {
     display: flex;
     border: 2px solid var(--blur);
     margin: 2% auto;
@@ -82,26 +82,32 @@ th, td {
     color: var(--blur);
 }
 
+.project-link {
+    background-color: var(--blur);
+    border: 2px solid var(--blur);
+    color: var(--text-main);
+}
+
 @keyframes gradient {
-	0% {
-		background-position: 0% 50%;
-	}
-	50% {
-		background-position: 100% 50%;
-	}
-	100% {
-		background-position: 0% 50%;
-	}
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
 }
 
 @media (max-width: 768px) {
-    .project-image{
-        width: 70%;
-    }
-    .project-description{  
+    .project-description {
         width: 90%;
     }
-    .project-image{
+    .project-title {
+        font-size: 60px;
+    }
+    .project-image {
         width: 90vw;
     }
 }

@@ -1,64 +1,30 @@
-const spa1 = "https://raw.githubusercontent.com/Victory-S29/cursor-advanced/main/final-project/src/imgs/SPA/spa1.png";
-const spa2 = "https://raw.githubusercontent.com/Victory-S29/cursor-advanced/main/final-project/src/imgs/SPA/spa2.png";
-const spa3 = "https://raw.githubusercontent.com/Victory-S29/cursor-advanced/main/final-project/src/imgs/SPA/spa3.png";
-const spa4 = "https://raw.githubusercontent.com/Victory-S29/cursor-advanced/main/final-project/src/imgs/SPA/spa4.png";
+const lpRest1 = "https://raw.githubusercontent.com/Victory-S29/cursor-advanced/main/final-project/src/imgs/lp-restaurant/rest1.png";
+const lpRest2 = "https://raw.githubusercontent.com/Victory-S29/cursor-advanced/main/final-project/src/imgs/lp-restaurant/rest2.png";
+const lpRest3 = "https://raw.githubusercontent.com/Victory-S29/cursor-advanced/main/final-project/src/imgs/lp-restaurant/rest3.png";
+const lpRest4 = "https://raw.githubusercontent.com/Victory-S29/cursor-advanced/main/final-project/src/imgs/lp-restaurant/rest4.png";
+
+const np1 = "https://raw.githubusercontent.com/Victory-S29/cursor-advanced/main/final-project/src/imgs/notepad/np1.png";
+const np2 = "https://raw.githubusercontent.com/Victory-S29/cursor-advanced/main/final-project/src/imgs/notepad/np2.png";
+const np3 = "https://raw.githubusercontent.com/Victory-S29/cursor-advanced/main/final-project/src/imgs/notepad/np3.png";
+const np4 = "https://raw.githubusercontent.com/Victory-S29/cursor-advanced/main/final-project/src/imgs/notepad/np4.png";
 
 const lp1 = "https://raw.githubusercontent.com/Victory-S29/cursor-advanced/main/final-project/src/imgs/landing-page/lp1.png";
 const lp2 = "https://raw.githubusercontent.com/Victory-S29/cursor-advanced/main/final-project/src/imgs/landing-page/lp2.png";
 const lp3 = "https://raw.githubusercontent.com/Victory-S29/cursor-advanced/main/final-project/src/imgs/landing-page/lp3.png";
 const lp4 = "https://raw.githubusercontent.com/Victory-S29/cursor-advanced/main/final-project/src/imgs/landing-page/lp4.png";
 
-const redux1 = "https://raw.githubusercontent.com/Victory-S29/cursor-advanced/main/final-project/src/imgs/redux/redux1.png";
-const redux2 = "https://raw.githubusercontent.com/Victory-S29/cursor-advanced/main/final-project/src/imgs/redux/redux2.png";
-const redux3 = "https://raw.githubusercontent.com/Victory-S29/cursor-advanced/main/final-project/src/imgs/redux/redux3.png";
-
-const timer1 = "https://raw.githubusercontent.com/Victory-S29/cursor-advanced/main/final-project/src/imgs/Timer/timer1.png";
-const timer2 = "https://raw.githubusercontent.com/Victory-S29/cursor-advanced/main/final-project/src/imgs/Timer/timer2.png";
+const spa1 = "https://raw.githubusercontent.com/Victory-S29/cursor-advanced/main/final-project/src/imgs/spa/spa1.png";
+const spa2 = "https://raw.githubusercontent.com/Victory-S29/cursor-advanced/main/final-project/src/imgs/spa/spa2.png";
+const spa3 = "https://raw.githubusercontent.com/Victory-S29/cursor-advanced/main/final-project/src/imgs/spa/spa3.png";
+const spa4 = "https://raw.githubusercontent.com/Victory-S29/cursor-advanced/main/final-project/src/imgs/spa/spa4.png";
 
 const initialState = {
     projects: {
         "en": [{
             id: 1,
-            name: "Timer",
-            description: "Сountdown timer",
-            projectDescription: "The project is a countdown timer. The <Timer> component receives various props such as time (initial time), autostart (automatic start flag), step (timer update interval), onTick (function called on each timer update) etc.",
-            technologies: [
-                "React: Used to create the <Timer> component and manage the timer's state.",
-                "JS: Used for the timer logic and working with time.",
-                "CSS: Used for styling the <Timer> component and animating the decreasing bar.",
-                "Event Handling: Used for handling events such as button clicks (start/pause) and calling functions based on timer events.",
-                "Сlass Based:Used to create the <Timer> component, and React class-based lifecycle methods such as componentDidMount"],
-            gallery: [timer1, timer2],
-        }, {
-            id: 2,
-            name: "SPA",
-            projectDescription: "The project is a Single Page Application (SPA) that consists of the following pages: Home Page: This page displays an image and text that represent general information about the application. Publications Page: This page contains multiple publications and displays them on the page. Photo Gallery Page: This page displays a grid of images, resembling a simulated Instagram feed. Contacts Page: This page includes a list of contacts. There is a menu at the top of the page for navigating between pages.",
-            technologies: [
-                "React: Used for creating components and managing the application's state.",
-                "JS: Used for logic and data manipulation.",
-                "CSS: Used for styling components and page layout.",
-                "React Router: Used for navigation between pages in a single-page application."
-            ],
-            description: "Single page application with several pages",
-            gallery: [spa1, spa2, spa3, spa4],
-        }, {
-            id: 3,
-            name: "SPA with Redux",
-            description: "Single page application with form using Redux",
-            gallery: [redux1, redux2, redux3],
-            projectDescription: "In this project, a store is created to store publication data with fake information. Each publication contains the following information: author, author's image, author's nickname, publication date, publication text, publication image, number of likes, number of comments, and number of reposts. A form is also created where users can enter data for a new publication. The form includes fields for entering the publication text, image link, and selecting an author from a dropdown list. When the Add button is pressed, the data from the form is dispatched to the store. The functionality and publication data are managed using Redux, which is used for state management in the application. React is used for creating components and interacting with Redux. CSS is used for component styling. On a separate page, all the posts are displayed.",
-            technologies: [
-                "React: for creating components and interacting with Redux.",
-                "Redux: for state management and storing publication data.",
-                "JS: for logic and data manipulation.",
-                "CSS: for component styling and page layout."
-            ],
-        }, {
-            id: 4,
-            name: "Landing page",
-            description: "Landing page with adaptive design",
-            gallery: [lp1, lp2, lp3, lp4],
-            projectDescription: "The completed project is a responsive web page created using the design from Figma. SCSS and CSS were used for styling and component layout.",
+            name: "Restaurant landing page",
+            description: "Restaurant landing page",
+            projectDescription: "The Restaurant Landing Page is a visually appealing web page that provides essential information about the restaurant, such as its hours of operation and contact details. It showcases the restaurant's unique features, cuisine, and promotions to attract potential customers and encourage them to make a reservation.",
             technologies: [
                 "HTML: Used to create the structure and layout of the webpage.",
                 "CSS: Used for styling components and positioning elements on the page.",
@@ -67,47 +33,81 @@ const initialState = {
                 "Figma: Used for creating the design, layout, and components of the webpage, helping visualize the final result.",
                 "Layout technologies: Include the use of Flexbox and Grid for element positioning, working with relative units of measurement, organizing the page structure, handling fonts, and other layout techniques."
             ],
+            gallery: [lpRest1, lpRest2, lpRest3, lpRest4],
+            projectLink:"https://victory-s29.github.io/scss-landing-page/index.html",
+        }, {
+            id: 2,
+            name: "SPA",
+            description: "SPA notepad",
+            projectDescription: "Note-taking App using React and Redux, where users can create notes of various types, save them, and modify existing ones.",
+            technologies: [
+                "React: Used for creating components and managing the application's state.",
+                "CSS: Used for styling components and page layout.",
+                "React Router: Used for navigation between pages in a single-page application.",
+                "Redux: for state management and storing publication data."
+            ],
+            gallery: [np1, np2, np3, np4],
+            projectLink:"https://viktoriia-s-notepad-react-redux.netlify.app/",
+        }, {
+            id: 3,
+            name: "Landing page",
+            description: "Landing page with adaptive design",
+            gallery: [lp1, lp2, lp3, lp4],
+            projectDescription: "The completed project is a responsive web page created using the design from Figma. SCSS and CSS were used for styling and component layout.",
+            technologies: [
+                "HTML: Used to create the structure and layout of the webpage.",
+                "CSS: Used for styling components and positioning elements on the page.",
+                "Responsive design: Implemented using media queries and responsive classes to ensure optimal display of the page on different devices and screen sizes.",
+                "Layout technologies: Include the use of Flexbox and Grid for element positioning, working with relative units of measurement, organizing the page structure, handling fonts, and other layout techniques."
+            ],
+            projectLink:"https://victory-s29.github.io/cursor/exam-project/index.html",
+        }, {
+            id: 4,
+            name: "Gym SPA",
+            description: "Gym SPA",
+            gallery: [spa1, spa2, spa3, spa4],
+            projectDescription: "Description: The SPA for Gym is a modern web application built using API integration, designed to enhance the gym experience for both members and staff. This application provides a seamless and interactive platform for users to access gym-related information.",
+            technologies: [
+                "React: Used for creating components and managing the application's state.",
+                "CSS: Used for styling components and page layout.",
+                "React Router: Used for navigation between pages in a single-page application.",
+                "API: provide a standardized and efficient way for software applications to interact, enabling them to share data, functionalities, and resources, ultimately enhancing the overall capabilities and interoperability of the systems involved.",
+                "@mui/material: popular React component library that offers a wide range of ready-to-use UI components and styles, making it easier for developers to build visually appealing and responsive user interfaces for their React applications."
+            ],
+            projectLink:"https://viktoriia-s-fitness-app.netlify.app/",
         }],
 
         "ua": [{
             id: 1,
-            name: "Таймер",
-            description: "Таймер зворотнього відліку",
-            gallery: [timer1, timer2],
-            projectDescription: "Проєкт це таймер зворотнього відліку. Компонента <Timer> приймає різні властивості, такі як час, потребу в автостарті, інтервал, функцію, яка викликається на кожному кроці, та інше",
+            name: "Сторінка ресторану",
+            description: "Сторінка ресторану",
+            projectDescription: "Сторінка ресторану є візуально привабливою веб-сторінкою, яка надає основну інформацію про ресторан, таку як години роботи та контактні дані. Вона демонструє унікальні особливості ресторану, його кухню та акції, щоб привернути потенційних клієнтів та спонукати їх зробити резервацію.",
             technologies: [
-                "React: Використовується для створення компонента <Timer> та керування станом таймера.",
-                "JS: Використовується для логіки таймера та роботи з часом.",
-                "CSS: Використовується для стилізації компонента <Timer> та анімації зменшуючоїся панелі.",
-                "Обробка подій: Використовується для обробки подій, таких як натискання кнопок (старт/пауза) та виклик функцій на основі подій таймера",
-                "Класовий підхід: Використовується для створення компонента <Timer> та використання методів життєвого циклу на основі класів React, таких як componentDidMount."
+                "HTML: використовується для створення структури і розмітки сторінки.",
+                "CSS: використовується для стилізації компонентів і розташування елементів на сторінці.",
+                "SCSS: використовується для поліпшення роботи з CSS шляхом використання змінних, вкладених стилів, міксинів та інших функцій.",
+                "Адаптивний дизайн: використовуються медіа-запити і адаптивні класи для забезпечення оптимального відображення сторінки на різних пристроях і розмірах екрану.",
+                "Figma: використовується для створення дизайну, макету та компонентів сторінки, що допомагає візуалізувати кінцевий результат.",
+                "Технології верстки: включають в себе розташування елементів за допомогою Flexbox і Grid, використання відносних одиниць вимірювання, організацію структури сторінки, роботу зі шрифтами та інші техніки верстки."
             ],
+            gallery: [lpRest1, lpRest2, lpRest3, lpRest4],
+            projectLink:"https://victory-s29.github.io/scss-landing-page/index.html",
         }, {
             id: 2,
-            name: "SPA",
-            description: "SPA з декількома сторінками",
-            gallery: [spa1, spa2, spa3, spa4],
-            projectDescription: "Проєкт є односторінковим додатком (SPA), який містить наступні сторінки: Головна сторінка: На цій сторінці відображається зображення та текст, які представляють загальну інформацію про додаток. Сторінка публікацій: Ця сторінка містить декілька публікацій та відображає їх на сторінці Сторінка з фотографіями: На цій сторінці відображається сітка зображень, що нагадує умовний Інстаграм. Сторінка з контактами: Ця сторінка містить список контактів. Зверху сторінки знаходиться меню, за допомогою якого можна переходити між сторінками",
+            name: "Односторінкова програма",
+            description: "Нотатник",
+            projectDescription: "Додаток для заміток з використанням React і Redux, де користувачі можуть створювати замітки різних типів, зберігати їх і модифікувати існуючі.",
             technologies: [
                 "React: Використовується для створення компонентів та управління станом додатку.",
                 "JS: Використовується для логіки та маніпуляцій з даними.",
                 "CSS: Використовується для стилізації компонентів та розмітки сторінок.",
-                "React Router: Використовується для навігації між сторінками в односторінковому додатку."
+                "React Router: Використовується для навігації між сторінками в односторінковому додатку.",
+                "Redux: для управління станом та зберігання даних публікацій."
             ],
+            gallery: [np1, np2, np3, np4],
+            projectLink:"https://viktoriia-s-notepad-react-redux.netlify.app/",
         }, {
             id: 3,
-            name: "SPA з Redux",
-            description: "SPA з формою з використанням Redux",
-            gallery: [redux1, redux2, redux3],
-            projectDescription: "У цьому проекті створено store, в якому зберігаються дані про публікації з фейковими даними. Кожна публікація містить наступну інформацію: автора, зображення автора, нікнейм автора, дату публікації, текст публікації, зображення публікації, кількість лайків, кількість коментарів та кількість перепостів. Також створено форму, в яку можна ввести дані для нової публікації. Форма містить поля для введення тексту публікації, посилання на зображення та вибору автора з випадаючого списку. При натисканні кнопки Додати, дані з форми відправляються в store за допомогою диспетчера (dispatch).  Описані функціональність та дані про публікації зберігаються за допомогою Redux, який використовується для управління станом додатку. React використовується для створення компонентів та взаємодії з Redux. Для стилізації компонентів використовується CSS. На окремій сторінці виводяться всі пости",
-            technologies: [
-                "JS: для логіки та маніпуляцій з даними.",
-                "CSS: для стилізації компонентів та розмітки сторінок.",
-                "React: для створення компонентів та взаємодії з Redux.",
-                "Redux: для управління станом додатку та збереження даних про публікації."
-            ],
-        }, {
-            id: 4,
             name: "Веб-сторінка",
             description: "Сторінка з адаптивним дизайном",
             gallery: [lp1, lp2, lp3, lp4],
@@ -120,6 +120,21 @@ const initialState = {
                 "Figma: використовується для створення дизайну, макету та компонентів сторінки, що допомагає візуалізувати кінцевий результат.",
                 "Технології верстки: включають в себе розташування елементів за допомогою Flexbox і Grid, використання відносних одиниць вимірювання, організацію структури сторінки, роботу зі шрифтами та інші техніки верстки."
             ],
+            projectLink:"https://victory-s29.github.io/cursor/exam-project/index.html",
+        }, {
+            id: 4,
+            name: "Сторінка з фітнесом",
+            description: "Сторінка з фітнесом",
+            gallery: [spa1, spa2, spa3, spa4],
+            projectDescription: "SPA для спортзалу - сучасний веб-додаток, побудований з використанням інтеграції API, призначений для поліпшення досвіду в спортзалі як для членів клубу, так і для персоналу. Цей додаток надає безшовну та інтерактивну платформу для користувачів, щоб отримати доступ до інформації, пов'язаної зі спортзалом.",
+            technologies: [
+                "React: Використовується для створення компонентів та управління станом додатку.",
+                "CSS: Використовується для стилізації компонентів та розмітки сторінок.",
+                "React Router: Використовується для навігації між сторінками в односторінковому додатку.",
+                "API: надають стандартизований та ефективний спосіб взаємодії програмних додатків, дозволяючи їм обмінюватись даними, функціональністю та ресурсами, в результаті чого поліпшується загальна здатність та взаємодія систем, що беруть участь.",
+                "@mui/material: популярна бібліотека компонентів React, яка пропонує широкий спектр готових до використання компонентів і стилів користувацького інтерфейсу, спрощуючи процес розробки візуально привабливих та адаптивних інтерфейсів користувача для React-додатків."
+            ],
+            projectLink:"https://viktoriia-s-fitness-app.netlify.app/",
         }]
     }
 }
